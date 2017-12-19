@@ -6,3 +6,54 @@ body {
 a {
   color: #00B7FF;
 }
+
+.header-container{
+    background-color:rgb(40, 116, 166);
+      color: white;
+    }
+    .login{
+      color: white;
+      font-size: 1.3em;
+    }
+    #footer-container {
+        background-color: rgb(26, 82, 118 ) ;
+      color: white;
+      padding: 3em 0;
+
+    }
+    #footer-container h4 {
+      font-size: 16px;
+    }
+    .cw{
+      color: white;
+      }
+    @media (max-width: 768px) {
+      #footer-container [class*="col-"] {
+        margin-bottom: 2em;
+      }
+    }
+    .list-group{
+      margin-top: 1em;
+    }
+    .s1{
+      margin-top:0.4em;
+    }
+    .card{
+      margin-top: 1em;
+    }
+    .list-group-item-action.active {
+      background-color: #219FD9;
+      border-color: #219FD9;
+    }
+
+    #loadContainer{
+      margin-top:1em;
+      margin-bottom: 1em;
+    }
+    .imgViewProduct{
+      width: 100%;
+
+    }
+    .center-tittle{
+      text-align: center;
+    }
